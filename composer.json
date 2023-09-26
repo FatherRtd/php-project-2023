@@ -1,0 +1,9 @@
+{
+    "name": "fatherrtd/project",
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "Framework"
+        }
+    },
+    "require": {}
+}
