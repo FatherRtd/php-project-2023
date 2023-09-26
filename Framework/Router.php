@@ -11,7 +11,7 @@ class Router
 
     }
 
-    public function getContent()
+    public function getContent(): array
     {
         return $this->request->getGetParams();
     }
