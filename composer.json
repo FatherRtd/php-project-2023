@@ -1,9 +1,13 @@
 {
-    "name": "fatherrtd/project",
-    "autoload": {
-        "psr-4": {
-            "Framework\\": "Framework"
-        }
+  "name": "fatherrtd/project",
+  "autoload": {
+    "psr-4": {
+      "Framework\\": "Framework",
+      "App\\": "App"
     },
-    "require": {}
+    "files": [
+      "App/routes.php"
+    ]
+  },
+  "require": {}
 }
