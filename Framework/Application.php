@@ -17,6 +17,9 @@ class Application
 
     public function run(): void
     {
+
+
         echo print_r($this->router->getContent(), true);
+
     }
 }
